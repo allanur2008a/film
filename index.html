@@ -145,11 +145,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row pb-5" data-aos="fade-up" data-aos-duration="1000">
+            <div class="row pb-5" data-aos="fade-up" data-aos-duration="1000" >
                 <div class="col-3">
                     <div class="position-relative">
                         <div class="border rounded-5" style="background-color: #EEEEEE;">
-                            <img src="img/trending-01.jpg" alt="" class="img-fluid rounded-4">
+                            <img src="img/trending-01.jpg" alt="" class="img-fluid rounded-4" data-fancybox="gallery" data-caption="Assasin Creed">
                             <div
                                 class="position-absolute top-0 end-0 bg-primary p-2 m-3 px-3 rounded-3 fw-semibold  text-white">
                                 <del class="small">$28</del><br> $20</div>
@@ -174,7 +174,7 @@
                 <div class="col-3">
                     <div class="position-relative">
                         <div class="border rounded-5" style="background-color: #EEEEEE;">
-                            <img src="img/trending-02.jpg" alt="" class="img-fluid rounded-4">
+                            <img src="img/trending-02.jpg" alt="" class="img-fluid rounded-4" data-fancybox="gallery" data-caption="Assasin Creed">
                             <div
                                 class="position-absolute top-0 end-0 bg-primary p-2 m-3 px-3 fw-semibold rounded-3   text-white">
                                 $44</div>
@@ -199,7 +199,7 @@
                 <div class="col-3">
                     <div class="position-relative">
                         <div class="border rounded-5" style="background-color: #EEEEEE;">
-                            <img src="img/trending-03.jpg" alt="" class="img-fluid rounded-4">
+                            <img src="img/trending-03.jpg" alt="" class="img-fluid rounded-4" data-fancybox="gallery" data-caption="Assasin Creed">
                             <div
                                 class="position-absolute top-0 end-0 bg-primary p-2 m-3 px-3 fw-semibold rounded-3 text-white">
                                 <del class="small">$64</del><br> $44</div>
@@ -224,7 +224,7 @@
                 <div class="col-3">
                     <div class="position-relative">
                         <div class="border rounded-5" style="background-color: #EEEEEE;">
-                            <img src="img/trending-04.jpg" alt="" class="img-fluid rounded-4">
+                            <img src="img/trending-04.jpg" alt="" class="img-fluid rounded-4" data-fancybox="gallery" data-caption="Assasin Creed"  >
                             <div
                                 class="position-absolute top-0 end-0 bg-primary p-2 m-3 fw-semibold rounded-3   px-3 text-white">
                                 $32</div>
@@ -462,6 +462,11 @@
     <script>
         AOS.init({
             once:true,
+        })
+    </script>
+    <script>
+        Fancybox.bind("[data-fancybox]",{
+            'animated':true,
         })
     </script>
 </body>
